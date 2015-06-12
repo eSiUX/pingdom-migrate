@@ -194,7 +194,7 @@ if __name__ == '__main__':
         log.mask( 'ALL' )
         log.stderr( 1 )
 
-        pingdom = Pingdom('v06fr8n6865rtymmvm7sk42gxcxzx727', 'info@siux.cz', 'helenka99')
+        pingdom = Pingdom('API_KEY', 'USERNAME', 'PASSWD')
 
         #pprint.pprint( pingdom.request('/checks') )
         #pprint.pprint( pingdom.sourceList() )
